@@ -1,6 +1,11 @@
 {
   "packages": [
-    "packages/*"
+    "packages/javascript-code",
+    "packages/react-code",
+    "packages/vue-code",
+    "packages/typescript-code"
   ],
-  "version": "0.0.0"
+  "version": "independent",
+  "npmClient": "yarn",
+  "yes": true
 }
