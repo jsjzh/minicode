@@ -11,6 +11,10 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
 
+    "paths": {
+      "@/*": ["./core/*"]
+    },
+
     "baseUrl": "./",
     "outDir": "./src",
     "rootDir": "./core",

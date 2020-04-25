@@ -1,2 +1,1 @@
-import './functional';
-import './rxjs';
+import './functional-lodash';

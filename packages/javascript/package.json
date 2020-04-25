@@ -1,0 +1,28 @@
+{
+  "name": "@minicode/javascript",
+  "version": "0.0.0",
+  "description": "项目名称描述，待补充",
+  "keywords": [],
+  "author": "jsjzh <kimimi_king@163.com>",
+  "license": "ISC",
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "package.json",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsjzh/minicode.git"
+  },
+  "scripts": {
+    "test": "node ./src/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jsjzh/minicode/issues"
+  },
+  "homepage": "https://github.com/jsjzh/minicode#readme"
+}
