@@ -34,3 +34,23 @@ Array.prototype._reduce = function (combiner, initialValue) {
     return [accumulatedValue];
   }
 };
+
+Array.prototype.zip = function (right, combinerFunction) {
+  let results = [];
+  let i = 0;
+
+  while (i < Math.min.call(null, this.length, right.length))
+    results.push(combinerFunction(this[i], right[i])), i++;
+
+  return results;
+};
+
+Array.zip = (left, right, combinerFunction) => {
+  let results = [];
+  let i = 0;
+
+  while (i < Math.min.call(null, left.length, right.length))
+    results.push(combinerFunction(left[i], right[i])), i++;
+
+  return results;
+};
