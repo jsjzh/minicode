@@ -1,1 +1,1 @@
-import './rxjs';
+import './example';

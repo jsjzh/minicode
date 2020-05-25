@@ -1,1 +1,2 @@
-import './functional-lodash';
+// import './functional-lodash';
+import './example';
