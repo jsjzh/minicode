@@ -9,9 +9,7 @@
   "types": "typings/index.d.ts",
   "files": [
     "src",
-    "typings",
     "package.json",
-    "global.d.ts",
     "README.md"
   ],
   "publishConfig": {
@@ -22,7 +20,7 @@
     "url": "git+https://github.com/jsjzh/minicode.git"
   },
   "scripts": {
-    "build:ts": "rm -rf ./src ./typings && tsc --project ./",
+    "build:ts": "rm -rf ./src && tsc --project ./",
     "prepublish": "yarn run build:ts",
     "test": "yarn run prepublish && node ./src/index.js"
   },

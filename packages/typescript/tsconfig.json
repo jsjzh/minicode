@@ -11,16 +11,16 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
 
-    // "paths": {
-    //   "@/*": ["./core/*"]
-    // },
+    "paths": {
+      "@/*": ["./core/*"]
+    },
 
     "baseUrl": "./",
     "outDir": "./src",
-    "rootDir": "./core",
+    "rootDir": "./core"
 
-    "declaration": true,
-    "declarationDir": "./typings"
+    // "declaration": true,
+    // "declarationDir": "./typings"
   },
   "include": ["./core/**/*.ts"]
 }
